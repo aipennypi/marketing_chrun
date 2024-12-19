@@ -1,4 +1,7 @@
-Waze Dataset Churn Prediction: A Machine Learning Approach
+Waze Dataset Churn Prediction:
+Machine Learning Approach : WazeChurn.py
+Deep Learning Approach : ChurnAnalysis.py
+
 This project is focused on predicting user churn using the Waze dataset. It implements exploratory data analysis (EDA), feature engineering, and machine learning modeling with Random Forest and XGBoost classifiers. The project also compares the performance of these models using metrics such as F1-score, precision, recall, and accuracy.
 
 Features
@@ -16,10 +19,15 @@ Machine Learning Models:
 Random Forest:
 Performs hyperparameter tuning using GridSearchCV.
 Validates performance using custom cross-validation splits.
+
 XGBoost:
 Implements hyperparameter optimization with GridSearchCV.
-Model Evaluation:
 
+Sequencial deep learning model:
+two hidden layer 
+Adam optimizer
+
+Model Evaluation:
 Computes F1-score, precision, recall, and accuracy.
 Displays confusion matrices for further analysis.
 Compares feature importances between models.
