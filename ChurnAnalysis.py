@@ -3,7 +3,7 @@ import pandas as pd
 # from xgboost import XGBClassifier
 # from sklearn.ensemble import RandomForestClassifier
 import pickle
-path = '/Users/amos/PycharmProjects/pythonProject2/'
+path = '/'
 import matplotlib.pyplot as plt
 # from sklearn.tree import plot_tree
 
@@ -21,7 +21,7 @@ pd.set_option('display.max_columns', None)
 
 
 # Read the data
-df=pd.read_csv("/Users/amos/PycharmProjects/pythonProject2/waze_dataset.csv")
+df=pd.read_csv("waze_dataset.csv")
 
 print (df.head())
 print ("info:\n",df.info())
